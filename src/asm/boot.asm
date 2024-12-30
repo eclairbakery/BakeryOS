@@ -1,0 +1,1 @@
+; To ma byc w NASM syntax
