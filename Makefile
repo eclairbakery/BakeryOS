@@ -24,3 +24,4 @@ run:
 clean:
 	rm -r *.o
 	rm -r *.elf
+	rm grub/boot/kernel.elf
