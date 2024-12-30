@@ -7,9 +7,8 @@ section .multiboot
     dd -(0x1BADB002 + 0x00)
 
 section .text
-
-global _start
-extern main
+    global _start
+    extern main
 
 _start:
     cli

@@ -1,7 +1,7 @@
 #include <vga.h>
 #include <kernel.h>
 
-void kernel_main(void) 
+void main(void) 
 {
 	terminal_initialize();
 
