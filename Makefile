@@ -1,7 +1,9 @@
 CC = clang
+CXX = clang++
 LD = ld
 AS = nasm
 
+CXXFLAGS = -c --target=i686-elf -nostdlib -ffreestanding -O2 -Wall -Wextra -m32 -Iinclude -std=c++98
 CFLAGS = -c --target=i686-elf -nostdlib -ffreestanding -O2 -Wall -Wextra -m32 -Iinclude -std=c99
 LDFLAGS = -T linker.ld -nostdlib -e _start -m elf_i386
 ASFLAGS = -f elf32
